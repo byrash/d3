@@ -24,8 +24,8 @@ body,html{
   stroke: #000;
   shape-rendering: crispEdges;
 }
-.grideline path,
-.grideline line{
+.gridline path,
+.gridline line{
   fill: none;
   stroke:  #ccc;
   shape-rendering: crispEdges;
@@ -41,4 +41,15 @@ body,html{
     fill: #ccc;
     stroke: #ccc;
     stroke-width: 1px;
+}
+.donut{
+    opacity: 0.1;
+}
+.axis-label{
+    text-anchor: middle;
+    fill: #000;
+}
+.chart-header{
+    text-transform: capitalize;
+    font-size: 125%;
 }
