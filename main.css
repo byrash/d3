@@ -30,3 +30,15 @@ body,html{
   stroke:  #ccc;
   shape-rendering: crispEdges;
 }
+.trendline{
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 4px;
+    stroke-dasharray: 1;
+}
+.area{
+    opacity: 0.25;
+    fill: #ccc;
+    stroke: #ccc;
+    stroke-width: 1px;
+}
